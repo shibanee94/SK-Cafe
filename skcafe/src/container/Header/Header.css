@@ -1,0 +1,16 @@
+.app__header {
+    background-color:black;
+}
+
+.app__header-h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(147, 113, 27);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 30px;
+}
+
+ .app__header-img img {
+    width: 80%;
+} 
