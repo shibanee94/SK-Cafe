@@ -1,4 +1,5 @@
 import AboutUs from './AboutUs/AboutUs';
+import OurHistory from './OurHistory/OurHistory';
 import Chef from './Chef/Chef';
 import FindUs from './Findus/FindUs';
 import Footer from './Footer/Footer';
@@ -10,6 +11,7 @@ import SpecialMenu from './Menu/SpecialMenu';
 
 export {
   AboutUs,
+  OurHistory,
   Chef,
   FindUs,
   Footer,

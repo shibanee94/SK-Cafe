@@ -1,58 +1,118 @@
 import images from './images';
 
-const wines = [
+const coffees = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Cafe Latte',
+    price: '$6',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Caraamel Macchiato',
+    price: '$7',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Affogato',
+    price: '$8',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Americano',
+    price: '$3',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Cappuccino',
+    price: '$6',
+  },
+  {
+    title: 'Piccolo',
+    price: '$7',
+  },
+  {
+    title: 'Expresso',
+    price: '$5',
+  },
+  {
+    title: 'Baristo',
+    price: '$7',
+  }
+];
+
+const milkshakes = [
+  {
+    title: 'Choco Pirates',
+    price: '$6',
+  },
+  {
+    title: "Green Land Latte",
+    price: '$7',
+  },
+  {
+    title: 'Red Beach Latte',
+    price: '$7',
+  },
+  {
+    title: 'Purple Sky Ocean',
+    price: '$8',
+  },
+  {
+    title: 'Octopus Ink Latte',
+    price: '$8',
+  },
+  {
+    title: 'Rum Biscuit Latte',
+    price: '$9',
   },
 ];
 
-const cocktails = [
+const teas = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Black Tea',
+    price: '$4',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'Lemon Tea',
+    price: '$4',
   },
   {
-    title: 'Daiquiri',
+    title: 'Strawberry Tea',
+    price: '$5',
+  },
+  {
+    title: 'Lychee Tea',
+    price: '$5',
+  },
+  {
+    title: 'Peach Tea',
+    price: '$5',
+  },
+  {
+    title: 'Coconut',
+    price: '$6',
+  },
+  {
+    title: 'Mineral Water',
+    price: '$3',
+  },
+];
+
+const snacks = [
+  {
+    title: 'Bite My Ring',
+    price: '$6',
+  },
+  {
+    title: 'Yello Submarine',
+    price: '$7',
+  },
+  {
+    title: 'Frencheese',
+    price: '$9',
+  },
+  {
+    title: 'Flourish Squidy',
     price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
-  },
-  {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Lost Dorry',
+    price: '$10',
   },
 ];
 
@@ -79,4 +139,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { coffees, milkshakes, teas, snacks, awards };

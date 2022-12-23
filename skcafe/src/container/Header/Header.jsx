@@ -9,6 +9,7 @@ const Header = () => (
     <div className="app__wrapper_info">
       <SubHeading title="Chase the new flavour" />
       <h1 className="app__header-h1">The Key to Boost Your Mood</h1>
+      <img src={images.spoon} alt="spoon" className="spoon__img" />
       <p className="open__opensans" style={{ margin: `2rem 0`}}>lorem gtug ufjh bvjhgffg juy oiy bdgfg getuy dpofivfjj bvhgjgf bfhgfjhfj.</p>
       <button type="button" className="custom__buttom">Explore Menu</button>
     </div>
